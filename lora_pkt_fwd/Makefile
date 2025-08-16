@@ -14,7 +14,7 @@ INCLUDES = $(wildcard inc/*.h)
 ### External constant definitions
 # must get library build option to know if mpsse must be linked or not
 
-#include $(LGW_PATH)/library.cfg
+include $(LGW_PATH)/library.cfg
 RELEASE_VERSION := `cat ../VERSION`
 
 ### Constant symbols
